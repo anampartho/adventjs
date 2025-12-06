@@ -1,8 +1,4 @@
-/**
- * @param {Array<{ toy: string, quantity: number }>} giftsToProduce
- * @returns {string[]} Array of manufactured gifts
- */
-function manufactureGifts(
+export function manufactureGifts(
   giftsToProduce: Array<{ toy: string; quantity: number }>
 ) {
   return giftsToProduce.flatMap(({ toy, quantity }) => {
