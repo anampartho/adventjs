@@ -24,6 +24,7 @@ adventjs/
 ```
 
 Each challenge is organized in its own folder with:
+
 - `README.md`: Challenge description, examples, and requirements
 - `solution.ts`: TypeScript implementation
 
@@ -65,5 +66,4 @@ pnpm install
 
 ## 📄 License
 
-ISC
-
+MIT
